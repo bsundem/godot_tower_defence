@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://h8j2ddv00a7"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GameManager" type="Node2D" parent="."]
+
+[node name="SpawnPoint1" type="Node2D" parent="GameManager"]
+position = Vector2(100, 100)
+
+[node name="SpawnPoint2" type="Node2D" parent="GameManager"]
+position = Vector2(1000, 500)
+
+[node name="SpawnPoint3" type="Node2D" parent="GameManager"]
+position = Vector2(1000, 100)
+
+[node name="SpawnPoint4" type="Node2D" parent="GameManager"]
+position = Vector2(100, 500)
+
+[node name="EnemySpawnTimer" type="Timer" parent="GameManager"]
+
+[node name="Tower" type="Node2D" parent="."]

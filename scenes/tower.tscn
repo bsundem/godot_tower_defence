@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://6tq606clpdst"]
+
+[node name="Tower" type="Node2D" groups=["tower"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+
+[node name="Timer" type="Timer" parent="."]
